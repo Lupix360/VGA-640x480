@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Thu Jul 28 02:10:56 2022
+# Process ID: 10536
+# Current directory: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15704 C:\Users\guada\OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO\Servicio Social\SS_VGA\SS_VGA.xpr
+# Log file: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/vivado.log
+# Journal file: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source vga_initials_tb.tcl
+close_sim
+launch_simulation
+source vga_initials_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source vga_initials_tb.tcl
+open_run synth_1 -name synth_1
+open_run impl_1
+close_sim

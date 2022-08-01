@@ -1,0 +1,162 @@
+/*
+
+Xilinx Vivado v2020.3 (64-bit) [Major: 2020, Minor: 3]
+SW Build: 3173277 on Wed Apr  7 05:07:49 MDT 2021
+IP Build: 3174024 on Wed Apr  7 23:42:35 MDT 2021
+
+Process ID (PID): 12848
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Jul 22 03:59:28 CDT 2022
+Time zone: 	Central Standard Time (America/Mexico_City)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.3/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.3/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	guada
+User home directory: C:/Users/guada
+User working directory: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA
+User country: 	MX
+User language: 	es
+User locale: 	es_MX
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.3
+RDI_DATADIR: C:/Xilinx/Vivado/2020.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.3/bin
+
+Vivado preferences file location: C:/Users/guada/AppData/Roaming/Xilinx/Vivado/2020.3/vivado.xml
+Vivado preferences directory: C:/Users/guada/AppData/Roaming/Xilinx/Vivado/2020.3/
+Vivado layouts directory: C:/Users/guada/AppData/Roaming/Xilinx/Vivado/2020.3/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/vivado.log
+Vivado journal file location: 	C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/vivado.jou
+Engine tmp dir: 	C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/.Xil/Vivado-12848-DahliaPC
+
+Xilinx Environment Variables
+----------------------------
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.3
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,081 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\guada\OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO\Servicio Social\SS_VGA\SS_VGA.xpr. Version: Vivado v2020.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,081 MB. GUI used memory: 51 MB. Current time: 7/22/22, 3:59:29 AM CDT
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 62 MB (+62647kb) [00:01:04]
+// [Engine Memory]: 1,081 MB (+981613kb) [00:01:04]
+// [GUI Memory]: 85 MB (+20310kb) [00:01:05]
+// [GUI Memory]: 107 MB (+18604kb) [00:01:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  10100 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.3/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:38 . Memory (MB): peak = 1082.398 ; gain = 0.000 
+// Project name: SS_VGA; location: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA; part: xcvc1802-viva1596-1LHP-i-L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 126 MB (+15151kb) [00:01:22]
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 228ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 1228ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1228 ms.
+// [GUI Memory]: 139 MB (+6203kb) [00:07:21]
+// Elapsed time: 403 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_initials_top(Behavioral) (vga_initials_top.vhd)]", 1); // D
+// PAPropertyPanels.initPanels (clkdiv.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_initials_top(Behavioral) (vga_initials_top.vhd), Inst_clkdiv : clkdiv(Behavioral) (clkdiv.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_initials_top(Behavioral) (vga_initials_top.vhd), Inst_clkdiv : clkdiv(Behavioral) (clkdiv.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("clkdiv.vhd", 2, 24); // bP
+selectCodeEditor("clkdiv.vhd", 2, 72); // bP
+typeControlKey((HResource) null, "clkdiv.vhd", 'c'); // bP
+// Elapsed time: 125 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, clkdiv_tb(Behavioral) (clkdiv_tb.vhd)]", 10, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, clkdiv_tb(Behavioral) (clkdiv_tb.vhd)]", 10, true, false, false, false, false, true); // D - Double Click - Node
+floatFrame(PAResourceOtoP.PAViews_CODE, "clkdiv_tb.vhd"); // az
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "clkdiv_tb.vhd"); // az
+// Elapsed time: 23 seconds
+selectCodeEditor("clkdiv_tb.vhd", 1, 258); // bP
+typeControlKey((HResource) null, "clkdiv_tb.vhd", 'v'); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("clkdiv_tb.vhd", 136, 363); // bP
+selectCodeEditor("clkdiv_tb.vhd", 22, 232); // bP
+selectCodeEditor("clkdiv_tb.vhd", 159, 228); // bP
+// Elapsed time: 90 seconds
+selectCodeEditor("clkdiv_tb.vhd", 169, 575); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 425ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, clkdiv_tb(tb) (clkdiv_tb.vhd)]", 10, true); // D - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'vga_initials_top' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim' 

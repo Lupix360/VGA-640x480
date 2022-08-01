@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Mon Aug  1 02:38:07 2022
+# Process ID: 13556
+# Current directory: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10532 C:\Users\guada\OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO\Servicio Social\SS_VGA\SS_VGA.xpr
+# Log file: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/vivado.log
+# Journal file: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.3/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 1002.250 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_run impl_1
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+WARNING: [Project 1-591] Current part 'xcvc1802-viva1596-1LHP-i-L' is different from part 'xc7a35tcpg236-1' stored in the checkpoint.  Please run report_drc, report_timing and report_power.
+INFO: [Device 21-403] Loading part xcvc1802-viva1596-1LHP-i-L
+WARNING: [Device 21-713] Unknown Tile Type, SLL, given for group, SLL
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1694.227 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Constraints 18-5718] GCLK Deskew mode is set to Off via param.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Device 21-2210] 2 Level speed models with no predriver populated from models with predrivers.  Count = 65
+Parsing XDC File [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.runs/impl_1/vga_initials_top_routed/vga_initials_top.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W5' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V17' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:12]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V16' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W16' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:16]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W17' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:18]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W15' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:20]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V15' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:22]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W14' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:24]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W13' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:26]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U18' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:111]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location (PS9_X0Y0) is not valid for the shape with the following elements: 
+red[0]
+red_OBUF[0]_inst
+ [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:236]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location (PS9_X0Y0) is not valid for the shape with the following elements: 
+red[1]
+red_OBUF[1]_inst
+ [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:238]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J19' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:240]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N18' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:244]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L18' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:246]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J17' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:252]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location (PS9_X0Y0) is not valid for the shape with the following elements: 
+green[1]
+green_OBUF[1]_inst
+ [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:254]
+CRITICAL WARNING: [Common 17-69] Command failed: 'G17' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:256]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P19' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:260]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R19' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:262]
+Finished Parsing XDC File [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.runs/impl_1/vga_initials_top_routed/vga_initials_top.xdc]
+WARNING: [Designutils 20-2379] The current device 'xcvc1802' does not match the checkpoint device '7a35t'. The checkpoint will attempt to open but there may be placement and routing information that cannot be restored. It may be necessary to re-implement this design after the checkpoint is restored. Design and device checks such as timing, methodology, and DRC checks should be re-run on this design.
+WARNING: [Designutils 20-2381] The current package 'viva1596' does not match the checkpoint package 'cpg236'. The checkpoint will attempt to open but there may be placement and routing information that cannot be restored. It may be necessary to re-implement this design after the checkpoint is restored. Design and device checks such as timing, methodology, and DRC checks should be re-run on this design.
+Reading XDEF placement.
+Reading placer database...
+The changes to Device will not allow XDEF to be loaded.Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2819.230 ; gain = 296.109
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2819.230 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  (CARRY8) => LOOKAHEAD8: 5 instances
+  (CARRY8) => LUT6CY (LUTCY1, LUTCY2): 26 instances
+  BUFG => BUFGCE: 1 instance 
+  MUXF7 => LUT3: 1 instance 
+
+open_run: Time (s): cpu = 00:02:06 ; elapsed = 00:02:06 . Memory (MB): peak = 3841.562 ; gain = 2839.312
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_inferred__0/i__carry__0' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/geqOp_inferred__0/i__carry' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/geqOp_carry' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_inferred__0/i__carry' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_carry' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_inferred__0/i__carry__1' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/geqOp_inferred__0/i__carry__0' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/geqOp_carry__0' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_carry__0' in design.
+open_report: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3876.699 ; gain = 13.656
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+write_schematic -format pdf -orientation portrait C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/schematic.pdf
+ERROR: [Common 17-165] Too many positional options when parsing 'Social/SS_VGA/schematic.pdf', please type 'write_schematic -help' for usage info.
+write_schematic -format pdf -orientation portrait C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/Doc_SS/schematic.pdf
+ERROR: [Common 17-165] Too many positional options when parsing 'Social/Doc_SS/schematic.pdf', please type 'write_schematic -help' for usage info.
+write_schematic -format pdf -orientation portrait -scope visible C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/Doc_SS/schematic.pdf
+ERROR: [Common 17-165] Too many positional options when parsing 'Social/Doc_SS/schematic.pdf', please type 'write_schematic -help' for usage info.
+write_schematic -format pdf -orientation portrait C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/PDF/SCHER.pdf
+ERROR: [Common 17-165] Too many positional options when parsing 'Social/SS_VGA/PDF/SCHER.pdf', please type 'write_schematic -help' for usage info.
+write_schematic -format pdf -orientation portrait C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/PDF/schematic.pdf
+ERROR: [Common 17-165] Too many positional options when parsing 'Social/SS_VGA/PDF/schematic.pdf', please type 'write_schematic -help' for usage info.
+close_design
+close_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 6210.211 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug  1 03:13:30 2022...

@@ -1,0 +1,343 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:49 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Thu Jul 28 02:10:56 2022
+# Process ID: 10536
+# Current directory: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15704 C:\Users\guada\OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO\Servicio Social\SS_VGA\SS_VGA.xpr
+# Log file: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/vivado.log
+# Journal file: C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1068.027 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'vga_initials_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vga_initials_tb_vlog.prj"
+"xvhdl --incr --relax -prj vga_initials_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xelab -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vga_initials_tb_behav -key {Behavioral:sim_1:Functional:vga_initials_tb} -tclbatch {vga_initials_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+source vga_initials_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1068.027 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vga_initials_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1068.027 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'vga_initials_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vga_initials_tb_vlog.prj"
+"xvhdl --incr --relax -prj vga_initials_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/sim_1/new/vga_initials_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_initials_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xelab -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.clkdiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_640x480 [vga_640x480_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_initials [vga_initials_default]
+Compiling architecture behavioral of entity xil_defaultlib.prom_initials [prom_initials_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_initials_top [vga_initials_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_initials_tb
+Built simulation snapshot vga_initials_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vga_initials_tb_behav -key {Behavioral:sim_1:Functional:vga_initials_tb} -tclbatch {vga_initials_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+source vga_initials_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1068.027 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vga_initials_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1068.027 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'vga_initials_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vga_initials_tb_vlog.prj"
+"xvhdl --incr --relax -prj vga_initials_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/sim_1/new/vga_initials_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_initials_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xelab -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-664] expression has 8 elements ; expected 32 [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/sim_1/new/vga_initials_tb.vhd:78]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1068.027 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'vga_initials_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vga_initials_tb_vlog.prj"
+"xvhdl --incr --relax -prj vga_initials_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/sim_1/new/vga_initials_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_initials_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xelab -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-664] expression has 4 elements ; expected 32 [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/sim_1/new/vga_initials_tb.vhd:78]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1068.027 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'vga_initials_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vga_initials_tb_vlog.prj"
+"xvhdl --incr --relax -prj vga_initials_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/sim_1/new/vga_initials_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vga_initials_tb'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1068.027 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+"xelab -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2020.3.0
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.3/bin/unwrapped/win64.o/xelab.exe -wto a00321755bb64c458020a71217dc2f31 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot vga_initials_tb_behav xil_defaultlib.vga_initials_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.clkdiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_640x480 [vga_640x480_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_initials [vga_initials_default]
+Compiling architecture behavioral of entity xil_defaultlib.prom_initials [prom_initials_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_initials_top [vga_initials_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_initials_tb
+Built simulation snapshot vga_initials_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vga_initials_tb_behav -key {Behavioral:sim_1:Functional:vga_initials_tb} -tclbatch {vga_initials_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+source vga_initials_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1068.027 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vga_initials_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 1068.027 ; gain = 0.000
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcvc1802-viva1596-1LHP-i-L
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+WARNING: [Project 1-591] Current part 'xcvc1802-viva1596-1LHP-i-L' is different from part 'xc7a35tcpg236-1' stored in the checkpoint.  Please run report_drc, report_timing and report_power.
+INFO: [Device 21-403] Loading part xcvc1802-viva1596-1LHP-i-L
+WARNING: [Device 21-713] Unknown Tile Type, SLL, given for group, SLL
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_run' was cancelled
+open_run impl_1
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+WARNING: [Project 1-591] Current part 'xcvc1802-viva1596-1LHP-i-L' is different from part 'xc7a35tcpg236-1' stored in the checkpoint.  Please run report_drc, report_timing and report_power.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1779.582 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Constraints 18-5718] GCLK Deskew mode is set to Off via param.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Device 21-2210] 2 Level speed models with no predriver populated from models with predrivers.  Count = 65
+Parsing XDC File [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.runs/impl_1/vga_initials_top_routed/vga_initials_top.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W5' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V17' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:12]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V16' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W16' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:16]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W17' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:18]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W15' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:20]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V15' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:22]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W14' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:24]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W13' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:26]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U18' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:111]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location (PS9_X0Y0) is not valid for the shape with the following elements: 
+red[0]
+red_OBUF[0]_inst
+ [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:236]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location (PS9_X0Y0) is not valid for the shape with the following elements: 
+red[1]
+red_OBUF[1]_inst
+ [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:238]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J19' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:240]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N18' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:244]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L18' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:246]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J17' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:252]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location (PS9_X0Y0) is not valid for the shape with the following elements: 
+green[1]
+green_OBUF[1]_inst
+ [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:254]
+CRITICAL WARNING: [Common 17-69] Command failed: 'G17' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:256]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P19' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:260]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R19' is not a valid site or package pin name. [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.srcs/constrs_1/imports/constrains/Basys-3-Master.xdc:262]
+Finished Parsing XDC File [C:/Users/guada/OneDrive - UNIVERSIDAD NACIONAL AUTNOMA DE MXICO/Servicio Social/SS_VGA/SS_VGA.runs/impl_1/vga_initials_top_routed/vga_initials_top.xdc]
+WARNING: [Designutils 20-2379] The current device 'xcvc1802' does not match the checkpoint device '7a35t'. The checkpoint will attempt to open but there may be placement and routing information that cannot be restored. It may be necessary to re-implement this design after the checkpoint is restored. Design and device checks such as timing, methodology, and DRC checks should be re-run on this design.
+WARNING: [Designutils 20-2381] The current package 'viva1596' does not match the checkpoint package 'cpg236'. The checkpoint will attempt to open but there may be placement and routing information that cannot be restored. It may be necessary to re-implement this design after the checkpoint is restored. Design and device checks such as timing, methodology, and DRC checks should be re-run on this design.
+Reading XDEF placement.
+Reading placer database...
+The changes to Device will not allow XDEF to be loaded.Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2896.746 ; gain = 298.582
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2896.746 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 33 instances were transformed.
+  (CARRY8) => LOOKAHEAD8: 5 instances
+  (CARRY8) => LUT6CY (LUTCY1, LUTCY2): 26 instances
+  BUFG => BUFGCE: 1 instance 
+  MUXF7 => LUT3: 1 instance 
+
+open_run: Time (s): cpu = 00:01:44 ; elapsed = 00:01:50 . Memory (MB): peak = 3945.496 ; gain = 2185.652
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_inferred__0/i__carry__0' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/geqOp_inferred__0/i__carry' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/geqOp_carry' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_inferred__0/i__carry' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_carry' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_inferred__0/i__carry__1' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/geqOp_inferred__0/i__carry__0' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/geqOp_carry__0' in design.
+WARNING: [Power 33-325] Unable to locate instance 'Inst_vga_initials/_carry__0' in design.
+open_report: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 3945.496 ; gain = 0.000
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 6365.828 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 28 08:08:02 2022...
